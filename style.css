@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    box-shadow: 0 4px 10px rgba(238, 234, 234, 0.98);
+    padding: 4px;
+    margin-right: 40px;
+}
+
+.displaytask {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container {
+    box-shadow: 0 4px 10px rgba(238, 234, 234, 0.98);
+    padding: 20px;
+}
+.displaytask li {
+    list-style-type: none;   
+}
+
+li.done span {
+    text-decoration: line-through;
+}
+
+li.done .checkbtn {
+    text-decoration: line-through;
+}
+
+.checkbtn {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+
+#taskBtn {
+    
+}

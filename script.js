@@ -7,7 +7,7 @@ taskBtn.addEventListener('click', () => {
     displayTask.appendChild(taskLi);
     
     const checkBtn = document.createElement('button');
-    checkBtn.classList.add = 'check-btn';
+    checkBtn.classList.add('checkbtn');
     taskLi.appendChild(checkBtn);
     
     const span = document.createElement('span');
